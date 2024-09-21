@@ -1,0 +1,9 @@
+<?php 
+$Name=readline ("Enter your name: ");
+$DateOfBirth=readline ("Enter your date of birth: ");
+$HomeAddress =readline ("Enter home address: ");
+$Birthyear=(int)readline("Enter birth year: ");
+$CurrentYear=(int)readline("Enter current year: ");
+$Age=$CurrentYear-$Birthyear;
+echo"{$Name} you are {$Age} years old welcome home today😍";
+?>
